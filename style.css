@@ -1,0 +1,143 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #5f4281, #542190,#370770);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+  }
+
+
+  .hidden {
+    display: none;
+}
+
+#cpsScore {
+    color: #bdbdbd;
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+
+
+  .title {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .title h1 {
+    color: #333;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+  
+  .game-container {
+    text-align: center;
+    width: 750px;
+    /* max-width: 580px; */
+    background: #230646;
+    color: #bdbdbd;
+    border-radius: 15px;
+    padding: 90px 50px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    color: #ff4e60;
+  }
+  
+  .header p {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    color: #bdbdbd;
+    font-weight: bold;
+  }
+  
+  .game-area {
+    margin-top: 20px;
+  }
+  
+  #timer {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  #clickButton {
+    width: 85%;     
+    height: 150px;
+    font-size: 1.8rem;
+    background: #5f4281;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #clickButton:hover {
+    background: #542190;
+    transform: scale(1.05);
+  }
+  
+  #score {
+    font-size: 1.4rem;
+    margin: 20px 0;
+    font-weight: bold;
+  }
+  
+  #restartButton {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #restartButton:hover {
+    background: #45a049;
+    transform: scale(1.05);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.title img {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 10px;
+}
+
+
+
+  

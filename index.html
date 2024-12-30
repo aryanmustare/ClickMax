@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Minute Clicking Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+
+    <div class="title">
+        <img src="max2.png" alt="maze icon">
+        <h1>ClickMax</h1>
+        <img src="max2.png" alt="maze icon">
+    </div>
+
+  <div class="game-container">
+    <div class="header">
+
+      <h1>🔥 One Minute Clicking Challenge 🔥</h1>
+      <p id="instructions">How many times can you click the button in 60 seconds?</p>
+    </div>
+    <div class="game-area">
+
+      <p id="timer">⏳ Time Remaining: <span id="time">60</span> seconds</p>
+      <button id="clickButton">CLICK ME!</button>
+
+      <p id="score">Your Score: <span id="clickCount">0</span></p>
+
+      <p id="cpsScore" class="hidden">Clicks Per Second: <span id="cpsCount">0</span></p>
+      <button id="restartButton" class="hidden">Restart Game</button>
+    </div>
+  </div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
